@@ -1,0 +1,160 @@
+
+body{
+    background-color: rgb(231, 220, 207);
+    padding: 10px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+nav li {
+    background-color: #333;
+    color:#fff;
+    align-self: center;
+}
+nav ul{
+    display: flex;
+    flex:1;
+    padding:0;
+    list-style:none;
+
+}
+   
+nav ul li{
+    text-align: center;
+    margin-left: 1rem;
+    }
+nav a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+nav a:hover{
+    color:blue
+}
+
+
+.box {
+    float: left;
+    width: 33.3%;
+    margin: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color:black;
+    border-radius: 1rem;
+   
+}
+  
+.lists{
+    border: 2px red solid;
+    list-style: square;
+    list-style: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+.lists h2{
+    text-align: center;
+}
+.lists ul{
+    padding:1rem;
+    list-style: square;
+    list-style:upper-alpha;
+    
+}
+.lists ol{
+    padding:1rem;
+    list-style: circle;
+    list-style:decimal;
+    }
+.lists li{
+    border-bottom:dotted blue;
+}
+section h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color:black
+}
+a:hover {
+    color:red
+
+}
+a:active {
+    color:green
+}
+a:visited {
+    color:yellow
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+.imgcontainer {
+width: fit-content;
+}
+.container{
+    padding: 20px;
+    align-self: auto;
+}
+.container label{
+    display:block
+}
+.container input{
+    padding: 8px;
+    width: auto;
+}
+.mySlides{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+
+}
+h2{
+    text-align: center;
+}
+
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: top 40px;
+}
+
+h3{
+    text-align: center;
+    
+}
+
+img {
+   width: 20rem;
+   height: 20rem;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 5px;
+
+}
